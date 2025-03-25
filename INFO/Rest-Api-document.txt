@@ -1,0 +1,47 @@
+1) Test ping
+
+GET http://localhost:8080/Spring-MVC-Practice-1.0-SNAPSHOT/ping
+
+2) Create new order
+
+POST http://localhost:8080/Spring-MVC-Practice-1.0-SNAPSHOT/orders
+
+{
+    "id": 1
+    "creationDate": "2024-03-25T10:30:00",
+    "products": [
+        {
+            "name": "Laptop",
+            "cost": 1500.50
+        },
+        {
+            "name": "Mouse",
+            "cost": 25.99
+        }
+    ]
+}
+
+
+{
+    "creationDate": "2024-03-26T10:30:00",
+    "products": [
+        {
+            "name": "Gamepad",
+            "cost": 50.50
+        },
+        {
+            "name": "Xbox",
+            "cost": 500.99
+        }
+    ]
+}
+
+3) Get all orders
+
+GET http://localhost:8080/Spring-MVC-Practice-1.0-SNAPSHOT/orders
+
+
+4) Get order by id
+
+GET http://localhost:8080/Spring-MVC-Practice-1.0-SNAPSHOT/orders/1
+

@@ -7,7 +7,6 @@ GET http://localhost:8080/Spring-MVC-Practice-1.0-SNAPSHOT/ping
 POST http://localhost:8080/Spring-MVC-Practice-1.0-SNAPSHOT/orders
 
 {
-    "id": 1
     "creationDate": "2024-03-25T10:30:00",
     "products": [
         {
